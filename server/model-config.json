@@ -35,6 +35,10 @@
     "dataSource": "db",
     "public": false
   },
+  "tailleur": {
+    "dataSource": "mongo",
+    "public": true
+  },
   "TypeHabit": {
     "dataSource": "db",
     "public": true

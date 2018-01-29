@@ -1,0 +1,38 @@
+{
+    "name": "tailleur",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "nom": {
+        "type": "string"
+      },
+      "prenom": {
+        "type": "string"
+      },
+      "adresse": {
+        "type": "string"
+      },
+      "tel": {
+        "type": "number"
+      },
+      "email": {
+        "type": "string"
+      }
+    
+    },
+    "validations": [],
+    "relations": {
+      "typeHabits": {
+        "type": "hasMany",
+        "model": "TypeHabit",
+        "foreignKey": "idTailleur"
+       
+      }
+    },
+    "acls": [],
+    "methods": {}
+  }
+  
