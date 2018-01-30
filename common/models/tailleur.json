@@ -19,7 +19,8 @@
         "type": "number"
       },
       "email": {
-        "type": "string"
+        "type": "string",
+        "id" : true
         
 
       }
