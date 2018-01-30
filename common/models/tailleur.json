@@ -19,8 +19,7 @@
         "type": "number"
       },
       "email": {
-        "type": "string",
-        "id":true
+        "type": "string"
         
 
       }
