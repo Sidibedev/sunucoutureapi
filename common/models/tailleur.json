@@ -1,6 +1,6 @@
 {
     "name": "tailleur",
-    "base": "User",
+    "base": "PersistedModel",
     "idInjection": true,
     "options": {
       "validateUpsert": true
@@ -20,7 +20,7 @@
       },
       "email": {
         "type": "string",
-        "id" : true
+        "id":true
         
 
       }
