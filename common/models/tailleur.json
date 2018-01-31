@@ -16,12 +16,15 @@
         "type": "string"
       },
       "tel": {
-        "type": "number"
+        "type": "string"
       },
       "email": {
         "type": "string"
         
 
+      },
+      "avatar" :{
+        "type" : "string"
       }
     
     },
