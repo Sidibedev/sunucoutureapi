@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "mongo"
+    "dataSource": "db"
   },
   "AccessToken": {
-    "dataSource": "mong",
+    "dataSource": "db",
     "public": false
   },
   "ACL": {
-    "dataSource": "mongo",
+    "dataSource": "db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongo",
+    "dataSource": "db",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mongo",
+    "dataSource": "db",
     "public": false
   },
   "tailleur": {
@@ -40,7 +40,7 @@
     "public": true
   },
   "TypeHabit": {
-    "dataSource": "mongo",
+    "dataSource": "db",
     "public": true
   }
 }
