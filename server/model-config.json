@@ -40,7 +40,7 @@
     "public": true
   },
   "TypeHabit": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   }
 }
