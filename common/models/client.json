@@ -1,5 +1,5 @@
 {
-  "name": "TypeHabit",
+  "name": "client",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,16 +10,23 @@
       "type": "string",
       "required": true
     },
-    "icon": {
+    "prenom": {
+      "type": "string",
+      "required": true
+    },
+    "adresse": {
+      "type": "string"
+    },
+    "telephone": {
       "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "modeles": {
-      "type": "hasMany",
-      "model": "modele",
-      "foreignKey": "idTypeHabit"
+    "tailleur": {
+      "type": "belongsTo",
+      "model": "tailleur",
+      "foreignKey": "idTailleur"
     }
   },
   "acls": [],

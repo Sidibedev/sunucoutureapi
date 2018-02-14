@@ -42,5 +42,13 @@
   "TypeHabit": {
     "dataSource": "mongo",
     "public": true
+  },
+  "modele": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "client": {
+    "dataSource": "mongo",
+    "public": true
   }
 }

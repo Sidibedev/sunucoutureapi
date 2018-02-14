@@ -1,5 +1,5 @@
 {
-  "name": "TypeHabit",
+  "name": "modele",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,15 +10,21 @@
       "type": "string",
       "required": true
     },
-    "icon": {
+    "description": {
+      "type": "string"
+    },
+    "prix": {
+      "type": "number"
+    },
+    "imgUrl": {
       "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "modeles": {
-      "type": "hasMany",
-      "model": "modele",
+    "typeHabits": {
+      "type": "hasOne",
+      "model": "TypeHabit",
       "foreignKey": "idTypeHabit"
     }
   },
