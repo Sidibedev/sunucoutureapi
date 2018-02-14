@@ -1,43 +1,38 @@
 {
-    "name": "tailleur",
-    "base": "PersistedModel",
-    "idInjection": true,
-    "options": {
-      "validateUpsert": true
+  "name": "tailleur",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nom": {
+      "type": "string"
     },
-    "properties": {
-      "nom": {
-        "type": "string"
-      },
-      "prenom": {
-        "type": "string"
-      },
-      "adresse": {
-        "type": "string"
-      },
-      "tel": {
-        "type": "string"
-      },
-      "email": {
-        "type": "string"
-        
-
-      },
-      "avatar" :{
-        "type" : "string"
-      }
-    
+    "prenom": {
+      "type": "string"
     },
-    "validations": [],
-    "relations": {
-      "typeHabits": {
-        "type": "hasMany",
-        "model": "TypeHabit",
-        "foreignKey": "idTailleur"
-       
-      }
+    "adresse": {
+      "type": "string"
     },
-    "acls": [],
-    "methods": {}
-  }
-  
+    "tel": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "typeHabits": {
+      "type": "hasMany",
+      "model": "TypeHabit",
+      "foreignKey": "idTailleur"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

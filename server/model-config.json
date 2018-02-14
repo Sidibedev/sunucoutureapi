@@ -42,5 +42,9 @@
   "TypeHabit": {
     "dataSource": "mongo",
     "public": true
+  },
+  "modele": {
+    "dataSource": "mongo",
+    "public": true
   }
 }

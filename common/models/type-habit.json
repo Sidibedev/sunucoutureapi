@@ -15,7 +15,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "modeles": {
+      "type": "hasMany",
+      "model": "modele",
+      "foreignKey": "idTypeHabit"
+    }
+  },
   "acls": [],
   "methods": {}
 }
