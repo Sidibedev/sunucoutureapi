@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    
+    "url": "mongodb://sidibe:sidibe96@ds217138.mlab.com:17138/sunucouture",
+    
+    "name": "mongo",
+    
+    "connector": "mongodb"
+  }
+}
