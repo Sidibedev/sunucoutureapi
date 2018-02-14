@@ -1,0 +1,33 @@
+{
+  "name": "modele",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "prix": {
+      "type": "number"
+    },
+    "imgUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "typeHabits": {
+      "type": "hasOne",
+      "model": "TypeHabit",
+      "foreignKey": "idTypeHabit"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
