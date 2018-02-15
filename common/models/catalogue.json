@@ -1,5 +1,5 @@
 {
-  "name": "TypeHabit",
+  "name": "catalogue",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,16 +10,21 @@
       "type": "string",
       "required": true
     },
-    "icon": {
+    "imgUrl": {
       "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "catalogues": {
-      "type": "hasMany",
-      "model": "catalogue",
+    "typeHabits": {
+      "type": "hasOne",
+      "model": "TypeHabit",
       "foreignKey": "idTypeHabit"
+    },
+    "modeles": {
+      "type": "hasMany",
+      "model": "modele",
+      "foreignKey": "idCatalogue"
     }
   },
   "acls": [],

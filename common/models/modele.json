@@ -22,10 +22,10 @@
   },
   "validations": [],
   "relations": {
-    "typeHabits": {
+    "catalogues": {
       "type": "hasOne",
-      "model": "TypeHabit",
-      "foreignKey": "idTypeHabit"
+      "model": "catalogue",
+      "foreignKey": "idCatalogue"
     }
   },
   "acls": [],

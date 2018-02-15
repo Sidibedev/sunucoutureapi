@@ -50,5 +50,9 @@
   "client": {
     "dataSource": "mongo",
     "public": true
+  },
+  "catalogue": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
