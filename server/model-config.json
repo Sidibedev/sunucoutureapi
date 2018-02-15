@@ -54,5 +54,9 @@
   "catalogue": {
     "dataSource": "mongo",
     "public": true
+  },
+  "mensuration": {
+    "dataSource": "mongo",
+    "public": true
   }
 }

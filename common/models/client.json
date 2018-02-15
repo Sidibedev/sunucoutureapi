@@ -27,6 +27,11 @@
       "type": "belongsTo",
       "model": "tailleur",
       "foreignKey": "idTailleur"
+    },
+    "mensurations": {
+      "type": "hasMany",
+      "model": "mensuration",
+      "foreignKey": "idClient"
     }
   },
   "acls": [],

@@ -1,5 +1,5 @@
 {
-  "name": "TypeHabit",
+  "name": "mensuration",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,21 +10,21 @@
       "type": "string",
       "required": true
     },
-    "icon": {
+    "valeur": {
       "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "catalogues": {
-      "type": "hasMany",
-      "model": "catalogue",
+    "typeHabit": {
+      "type": "belongsTo",
+      "model": "TypeHabit",
       "foreignKey": "idTypeHabit"
     },
-    "mensurations": {
-      "type": "hasMany",
-      "model": "mensuration",
-      "foreignKey": "idTypeHabit"
+    "clients": {
+      "type": "hasOne",
+      "model": "client",
+      "foreignKey": "idClient"
     }
   },
   "acls": [],
