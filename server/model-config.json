@@ -58,9 +58,5 @@
   "mensuration": {
     "dataSource": "mongo",
     "public": true
-  },
-  "mesure" : {
-    "dataSource" : "mongo",
-    "public":"true"
   }
 }

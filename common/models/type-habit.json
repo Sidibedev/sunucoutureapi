@@ -12,6 +12,9 @@
     },
     "icon": {
       "type": "string"
+    },
+    "mesures":{
+      "type" : "any"
     }
   },
   "validations": [],
@@ -24,11 +27,6 @@
     "mensurations": {
       "type": "hasMany",
       "model": "mensuration",
-      "foreignKey": "idTypeHabit"
-    },
-    "mesure" : {
-      "type" : "hasOne",
-      "model" : "mesure",
       "foreignKey": "idTypeHabit"
     }
   },
