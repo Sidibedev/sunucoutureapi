@@ -25,6 +25,11 @@
       "type": "hasMany",
       "model": "mensuration",
       "foreignKey": "idTypeHabit"
+    },
+    "mesure" : {
+      "type" : "hasOne",
+      "model" : "mesure",
+      "foreignKey": "idTypeHabit"
     }
   },
   "acls": [],
