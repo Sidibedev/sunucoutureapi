@@ -18,7 +18,8 @@
       "type": "string"
     },
     "telephone": {
-      "type": "string"
+      "type": "string",
+      "id" : true
     }
   },
   "validations": [],
